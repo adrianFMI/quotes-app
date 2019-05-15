@@ -1,0 +1,7 @@
+<%- include commons/header.ejs %>
+<% quotes.map(quote => ( %>
+  <div class="">
+    <h2><%= quote.quote %></h2>
+    <p><%= quote.author %></p>
+  </div>
+<% )) %>
